@@ -1,10 +1,10 @@
 
 body {
 font-family: 'Open Sans', sans-serif!important;
-/* background: linear-gradient(225deg, #4caf50, #f43b45, #ff4722, #f535af, #3cc1ff, #3244fd);
-  background-image: linear-gradient(225deg, rgb(76, 175, 80), rgb(244, 59, 69), rgb(255, 71, 34), rgb(245, 53, 175), rgb(60, 193, 255), rgb(50, 68, 253)); */
-background-image: url(./background.jpg);
-  /* background-position-x: initial;
+ background: linear-gradient(225deg, #4caf50, #f43b45, #f535af, #3cc1ff, #3244fd);
+  background-image: linear-gradient(225deg, rgb(76, 175, 80), rgb(244, 59, 69), rgb(245, 53, 175), rgb(60, 193, 255), rgb(50, 68, 253)); */
+/* background-image: url(./image.webp); */
+   background-position-x: initial;
   background-position-y: initial;
   background-size: 1200% 1200%;
   background-repeat-x: initial;
@@ -18,12 +18,86 @@ background-image: url(./background.jpg);
   animation-name: ccfgradient;
   -webkit-animation: ccfgradient 3s ease infinite;
   -moz-animation: ccfgradient 3s ease infinite;
-  /* animation: ccfgradient 3s ease infinite; */
-
+    animation: ccfgradient 3s ease infinite;
+    /* , #ff4722 rgb(255, 71, 34), */
 }
+button {
+    padding: 0.3rem 1rem;
+    margin-top: 5px;
+    text-decoration: none;
+    background: purple;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+button:hover {
+    background-color: #ff1493;
+    /* background-color: pink; */
+}
+#yoga:hover{
+    background: blue;
+}
+#tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted red;
+}
+
+#tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+#tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* #app {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* background-image: url('/nature.gif'); */
+    /* min-height: 100vh; */
+/* }  */
 .text-slanted {
     font-family: 'Courgette', cursive ;
 }
+@media (min-width: 650px) {
+    .landing-flexcontainer {
+        display: flex;
+    }
+}
+.landing-imgage-container {
+    width: 200px;
+    height: 200px;
+}
+
+.logo-text {
+    width: 57%;
+    height: auto;
+}
+.logo {
+    animation: wale-logo-float infinite 2s alternate;
+    padding-top: 2rem;
+    width: 63%;
+}
+.svg-logo {
+    fill: rgb(211, 62, 186);
+}
+
+
 #logo_img1{
     width:100px;
     height:100px;
@@ -67,13 +141,25 @@ background-image: url(./background.jpg);
 }
 
 .welcome-page .register-comp input {
-    margin: 7px;
+    /* margin: 7px;
     border-top: 2px;
     border-left: 2px;
     border-right: 2px;
     height:20px;
     /* border-bottom-color: blue; */
-    border-radius: 30%;
+    /* border-radius: 30%; */
+    width: 250px;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 0.7rem;
+    font-size: 1rem;
+}
+.login-comp input{
+    width: 250px;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 0.7rem;
+    font-size: 1rem;
 }
 #default_img{
     float: right;
@@ -242,8 +328,8 @@ text-align: center;
 }
 
  .uploader-content button {
-    border: 1px solid blue;
-    color: tomato;
+    /* border: 1px solid blue; */
+    color: blue;
     background-color:white;
     margin: 10px;
     cursor: pointer;

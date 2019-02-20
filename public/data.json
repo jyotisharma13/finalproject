@@ -45,5 +45,50 @@
         "source_url":
             "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
         "title": "Plank Pose"
+    },
+    {
+        "id": 35385,
+        "image_url":"./Seated-Foward-Fold.jpg",
+        "steps": [
+            "From all fours, tuck under your toes and lift your legs up off the mat.",
+            "Slide your heels back enough until you feel you are one straight line of energy from your head to your feet.",
+            "Engage the lower abdominals, draw the shoulders down and away from the ears",
+            "pull your ribs together and breathe deeply for 8-10 breaths."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
+        "title": "Plank Pose"
+    },
+    {
+        "id": 35386,
+        "image_url":"./Mountain-pose.jpg",
+        "steps": [
+            "From all fours, tuck under your toes and lift your legs up off the mat.",
+            "Slide your heels back enough until you feel you are one straight line of energy from your head to your feet.",
+            "Engage the lower abdominals, draw the shoulders down and away from the ears",
+            "pull your ribs together and breathe deeply for 8-10 breaths."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
+        "title": "Plank Pose"
+    },
+    {
+        "id": 35387,
+        "image_url":"./Triangle.jpg",
+        "steps": [
+            "From all fours, tuck under your toes and lift your legs up off the mat.",
+            "Slide your heels back enough until you feel you are one straight line of energy from your head to your feet.",
+            "Engage the lower abdominals, draw the shoulders down and away from the ears",
+            "pull your ribs together and breathe deeply for 8-10 breaths."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
+        "title": "Plank Pose"
     }
 ]

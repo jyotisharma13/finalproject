@@ -99,7 +99,7 @@ export class Registration extends React.Component{
                 <input name="email" placeholder="email" onChange={this.handleChange} />
                 <input name="password" placeholder="password" type="password" onChange={this.handleChange} />
                 <button onClick={this.submit}>SUBMIT</button>
-                <h3>Already a Register? <Link to="/login">Login</Link> here.</h3>
+                <h3>Already Registered? <Link to="/login">Login</Link> here.</h3>
             </div>
 
         );
@@ -121,3 +121,4 @@ export function Welcome(){
         </div>
     );
 }
+// <iframe src="https://www.youtube.com/watch?v=ie8hMyRuZW8" height="200px" width="200px"allowFullScreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" ></iframe>

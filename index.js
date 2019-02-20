@@ -57,9 +57,7 @@ if (process.env.NODE_ENV != 'production') {
     app.use('/bundle.js', (req, res) => res.sendFile(`${__dirname}/bundle.js`));
 }
 
-app.get('*', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
-});
+
 /////////////////////////////////////
 //actually put the files in the uploadedfiles
 //directory and changes name of the files
@@ -129,6 +127,7 @@ app.post('/welcome/login', (req, res)=>{
             res.json({notregistered: true});
         }
     }).then(()=> {
+        console.log('!!!!!loguserid',userId);
         req.session.userId = userId;
         res.json({success: true});
     }).catch(error =>{
@@ -136,6 +135,18 @@ app.post('/welcome/login', (req, res)=>{
         res.json({success: false});
     });
 });
+///////////////////////////////////
+// app.get("/search/:name", (req, res) => {
+//     books.search(req.params.name, function(error, results, apiResponse) {
+//         if ( ! error ) {
+//             console.log("results in search index.js:", results);
+//             console.log("apiResponse:", apiResponse);
+//             res.json(results);
+//         } else {
+//             console.log(error);
+//         }
+//     });
+// });
 ///////////////////////////////
 
 app.get('/logout', (req, res) => {
@@ -143,6 +154,9 @@ app.get('/logout', (req, res) => {
     res.redirect('/welcome');
 });
 //////////////////////////
+app.get('*', function(req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
 
 app.listen(8080, function() {
     console.log("I'm listening.");

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+// import Emoji from 'react-emoji-render';
 export default class Yoga extends Component {
     render() {
         console.log('this.props.yoga',this.props.yoga);
@@ -13,7 +13,7 @@ export default class Yoga extends Component {
         const { handleDetails } = this.props;
         return (
             <React.Fragment>
-                <div className="col-10 mx-auto col-md-6 col-lg-4 my-3">
+                <div className="col-10 mx-auto col-md-6 col-lg-4 my-3" id="yoga">
                     <div className="card">
                         <img
                             src={image_url}
@@ -31,7 +31,7 @@ export default class Yoga extends Component {
                             <button
                                 type="button"
                                 className="btn btn-primary text-capitalize"
-                                onClick={() => handleDetails}
+                                onClick={() => handleDetails(0,yoga_id)}
                             >
                     details
                             </button>
@@ -43,6 +43,24 @@ export default class Yoga extends Component {
                             >
                     yoga url
                             </a>
+                            <a  id="tooltip"
+                                className="btn btn-primary mx-2 text-capitalize"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                    +
+                                <span className="tooltiptext"> Add you Favourite Yoga Pose Here</span>
+                            </a>
+                            <button  id="tooltip"
+                                type="button"
+                                className="btn mx-2 text-capitalize"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                ❤️
+                                <span className="tooltiptext"> I Like This Yoga Pose</span>
+                            </button>
+
                         </div>
                     </div>
                 </div>

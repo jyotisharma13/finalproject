@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Yoga from "./Yoga";
 import YogaSearch from "./YogaSearch";
 
@@ -12,7 +13,10 @@ export default class yogaList extends Component {
             handleChange,
             error
         } = this.props;
+        
         console.log('yogas in yogalist',yogas);
+        console.log('value in yogalist',this.props.value);
+
         return (
             <React.Fragment>
                 <YogaSearch
@@ -33,12 +37,13 @@ export default class yogaList extends Component {
                             <h1 className="text-danger text-center">{error}</h1>
                         ) : (
                             yogas.map(yoga => {
+                                // console.log('yoga',yoga);
                                 return (
                                     <Yoga
                                         key={yoga.yoga_id}
                                         yoga={yoga}
                                         handleDetails={()=>handleDetails(0,yoga.yoga_id)}
-                                        // handleDetails={handleDetails}
+
                                     />
                                 );
                             })

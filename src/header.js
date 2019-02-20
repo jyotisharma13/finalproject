@@ -1,13 +1,13 @@
 import React from 'react';
 import {ProfilePic} from './profilePic';
 // import {SearchUsers} from './searchusers';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export function Header(props) {
     return (
         <header>
             <div className="header-content">
-
+                <img id="logo_img1" src="/logo.png" />
                 <ProfilePic
                     first={props.first}
                     last={props.last}
@@ -15,8 +15,12 @@ export function Header(props) {
                     showUploader={props.showUploader}
                 />
 
-                <p>{props.first} { props.last}</p>
+                <a>{props.first} { props.last}</a>
+                <Link to="/discover" id="discover">DISCOVER</Link>
+
+
                 <a href="/logout" id="logoutLink">LOGOUT</a>
+                
 
             </div>
         </header>

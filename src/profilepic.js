@@ -6,7 +6,7 @@ export function ProfilePic(props){
     // we can see the first name last name and profile pic should be in props.
     let url;
     if (props.pro_pic_Url === null) {
-        url = "/Bridge.jpg";
+        url = "/defaultimage.jpg";
     } else {
         url = props.pro_pic_Url;
     }

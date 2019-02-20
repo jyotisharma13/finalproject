@@ -24,7 +24,8 @@ module.exports.getLoginInfo = function(email) {
 ////////////////////////////////////////////////
 
 module.exports.getUserInfo = function(user_id){
-    return db.query(`SELECT users.first AS first, users.last AS last, users.id AS id, profile_images.img_url AS url, users.email AS email
+    console.log('getuserdatabasequery');
+    return db.query(`SELECT  users.id AS id,users.first AS first, users.last AS last, profile_images.img_url AS url, users.email AS email
         FROM users
         LEFT JOIN profile_images
         ON users.id = profile_images.user_id
