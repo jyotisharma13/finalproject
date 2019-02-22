@@ -8,7 +8,10 @@ import {Uploader} from './uploader';
 // import {Profile} from './profile';
 import {Header} from "./header";
 import Discover from './discover';
-import {BrowserRouter, Route} from 'react-router-dom';
+import About from './about';
+import Team from './team';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+
 
 
 export default class App extends Component {
@@ -20,7 +23,6 @@ export default class App extends Component {
             details_id: 35387,
             pageIndex: 1,
             search: "",
-            query: "&q=",
             error: "",
             uploaderIsVisible:false
         };
@@ -34,6 +36,7 @@ export default class App extends Component {
         this.handleSubmit=this.handleSubmit.bind(this);
         this.handleChange=this.handleChange.bind(this);
         this.filterOnSearch=this.filterOnSearch.bind(this);
+        this.setVisibleAndSilverize=this.setVisibleAndSilverize.bind(this);
     }
     //componentDidMount is the react equivalent of mounted in VALUES
     //a Lifecycle method
@@ -77,7 +80,22 @@ export default class App extends Component {
             yogas:yogas.filter(yogaMove=>yogaMove.title.includes(this.state.search))
         });
     }
-    
+    setVisibleAndSilverize() {
+        if (this.state.visible == 'visible') {
+            this.setState({
+                visible: '',
+                silverize: null
+            });
+        } else {
+            this.setState ({
+                visible: 'visible',
+                silverize: 'silverize'
+            });
+        }
+    }
+
+
+    // {<this.state.changediscover&&location.redirect('./discover') />}
     displayPage(index) {
         switch (index) {
                         default:
@@ -143,6 +161,7 @@ export default class App extends Component {
                             pro_pic_Url={this.state.pro_pic_Url}
                             showUploader={this.showUploader}
                         />
+
                         <React.Fragment>
                             <React.Fragment> {this.displayPage(this.state.pageIndex)}</React.Fragment>
                         </React.Fragment>
@@ -166,13 +185,20 @@ export default class App extends Component {
 
                             )}
                         />
-                        <Route
-                            path="/discover"
-                            render={() => (
-                                <Discover />
-                            )}
+                        <Switch>
+                            <Route
+                                exact
+                                path="/discover"
+                                render={() => (
+                                    <Discover />
+                                )}
 
-                        />
+                            />
+                            <Route exact path='/about' component={About}></Route>
+
+                            <Route exact path='/team' component={Team}></Route>
+
+                        </Switch>
 
                     </div>
                 </BrowserRouter>

@@ -50,7 +50,7 @@ export class Login extends React.Component{
                 <input name="email" placeholder="email" onChange={this.handleChange} />
                 <input name="password" placeholder="password" type="password" onChange={this.handleChange} />
                 <button onClick={this.submit}>Login</button>
-                <p>Not yet register? <Link to="/">Register</Link> here.</p>
+                <h3>Not yet Registered? <Link to="/">Register</Link> here.</h3>
             </div>
 
         );
@@ -109,10 +109,14 @@ export class Registration extends React.Component{
 export function Welcome(){
     return (
         <div className="welcome-page">
-            <h1>Yoga</h1>
-            <img src="/logo.png" />
-            <h3>Register and become part of our yoga group!</h3>
-            <HashRouter>
+
+            <h1>Your life-changing journey begins here.</h1>
+            <iframe className="youtube" width="600" height="400" src="https://www.youtube.com/embed/QFn5EsmLbDY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+
+            <h3 className="youtube">Register and become part of our yoga group!</h3>
+            <img className="logo" src="/logo.png" />
+            <HashRouter className="wow">
                 <div>
                     <Route exact path ="/" component={Registration} />
                     <Route path="/login" component={Login} />

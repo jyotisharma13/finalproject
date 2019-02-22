@@ -21,6 +21,21 @@ font-family: 'Open Sans', sans-serif!important;
     animation: ccfgradient 3s ease infinite;
     /* , #ff4722 rgb(255, 71, 34), */
 }
+.dropdown{
+    position: absolute;
+
+background: white;
+width: 250px;
+top: 79px;
+position: absolute;
+/* display: flex; */
+    /* display: flex; */
+}
+.youtube{
+    position: relative;
+    /* left:-30%; */
+}
+
 button {
     padding: 0.3rem 1rem;
     margin-top: 5px;
@@ -84,18 +99,16 @@ button:hover {
     height: 200px;
 }
 
-.logo-text {
-    width: 57%;
-    height: auto;
-}
+
 .logo {
-    animation: wale-logo-float infinite 2s alternate;
-    padding-top: 2rem;
-    width: 63%;
+position: absolute;
+left:7px;
+width: 100px;
+height:100px;
 }
-.svg-logo {
-    fill: rgb(211, 62, 186);
-}
+/* right:365px; */
+/* top:81px; */
+/* bottom: 1px; */
 
 
 #logo_img1{
@@ -172,10 +185,16 @@ button:hover {
     width:80px;
 }
 #img_pro {
-    /* float:right; */
-    height: 60px;
-    width:60px;
-     border-radius: 50%;
+    float:right;
+     height: 80px;
+    width:90px;
+     /* border-radius: 50%;  */
+     /* position: absolute;
+right: 964px;
+height: 80px;
+width: 80px;
+border-radius: 50%; */
+top: 4px;
 }
 #pro_photo{
     /* border: 1px solid black; */

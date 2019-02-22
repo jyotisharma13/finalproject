@@ -29,7 +29,7 @@
         "publisher_url": "https://www.yogajournal.com/",
         "source_url":
             "https://www.youtube.com/watch?v=fnJI3m2dv9Y",
-        "title": "Childs-Pose"
+        "title": "Child Pose"
     },
     {
         "id": 35384,
@@ -50,45 +50,199 @@
         "id": 35385,
         "image_url":"./Seated-Foward-Fold.jpg",
         "steps": [
-            "From all fours, tuck under your toes and lift your legs up off the mat.",
-            "Slide your heels back enough until you feel you are one straight line of energy from your head to your feet.",
-            "Engage the lower abdominals, draw the shoulders down and away from the ears",
-            "pull your ribs together and breathe deeply for 8-10 breaths."
+            "Start seated with your legs together, feet firmly flexed and not turning in or out, and your hands by your hips.",
+            "Lift your chest and start to hinge forward from your waist.",
+            "Engage your lower abdominals and imagine your belly button moving towards the top of your thighs.",
+            "Once you hit your maximum, stop and breathe for 8-10 breaths.",
+            "Make sure your shoulders, head and neck are all released."
         ],
         "publisher": "yogajournal",
         "publisher_url": "https://www.yogajournal.com/",
         "source_url":
-            "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
-        "title": "Plank Pose"
+            "https://www.youtube.com/watch?v=qtS5r2immqI",
+        "title": "Seated-Foward-Fold Pose"
     },
     {
         "id": 35386,
         "image_url":"./Mountain-pose.jpg",
         "steps": [
-            "From all fours, tuck under your toes and lift your legs up off the mat.",
-            "Slide your heels back enough until you feel you are one straight line of energy from your head to your feet.",
-            "Engage the lower abdominals, draw the shoulders down and away from the ears",
-            "pull your ribs together and breathe deeply for 8-10 breaths."
+            "Start standing with your feet together. Press down through all ten toes as you spread them open. ",
+            "Engage your quadriceps to lift your kneecaps and lift up through the inner thighs.",
+            "Draw your abdominals in and up as you lift your chest and press the tops of the shoulders down.",
+            "Feel your shoulder blades coming towards each other and open your chest; but keep your palms facing inwards towards the body. ",
+            "Imagine a string drawing the crown of the head up to the ceiling and breathe deeply in to the torso. Hold for 5-8 breaths."
         ],
         "publisher": "yogajournal",
         "publisher_url": "https://www.yogajournal.com/",
         "source_url":
-            "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
-        "title": "Plank Pose"
+            "https://www.youtube.com/watch?v=l9dW5Nn8XjU",
+        "title": "Mountain Pose"
     },
     {
         "id": 35387,
         "image_url":"./Triangle.jpg",
         "steps": [
-            "From all fours, tuck under your toes and lift your legs up off the mat.",
-            "Slide your heels back enough until you feel you are one straight line of energy from your head to your feet.",
-            "Engage the lower abdominals, draw the shoulders down and away from the ears",
-            "pull your ribs together and breathe deeply for 8-10 breaths."
+            "Start standing with your feet one leg's-length apart. Open and stretch your arms to the sides at shoulder height.",
+            "Turn your right foot out 90 degrees and your left toes in about 45 degrees.",
+            "Engage your quadriceps and abdominals as you hinge to the side over your right leg.",
+            "lace your right hand down on your ankle, shin or knee (or a block if you have one) and lift your left arm up to the ceiling.",
+            "Turn your gaze up to the top hand and hold for 5-8 breaths. Lift up to stand and repeat on the opposite side."
         ],
         "publisher": "yogajournal",
         "publisher_url": "https://www.yogajournal.com/",
         "source_url":
-            "https://www.yogajournal.com/videos/build-strong-core-plank-pose",
-        "title": "Plank Pose"
+            "https://www.youtube.com/watch?v=uQMpU8CPJYw",
+        "title": "Triangle Pose"
+    },
+    {
+        "id": 35388,
+        "image_url":"./Warrior-1.jpg",
+        "steps": [
+            "For warrior one, you can take a giant step back with your left foot coming towards a lunge, ",
+            "then turn your left heel down and angle your left toes forward 75 degrees.",
+            "Lift your chest and press your palms up overhead. Step forward and repeat on the opposite leg."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/warrior-i-pose",
+        "title": "Warrior-1 Pose"
+    },
+    {
+        "id": 35389,
+        "image_url":"./Warrior-2.jpg",
+        "steps": [
+            "Stand with your feet one leg’s-length apart. Turn your right toes out 90 degrees and your left toes in 45 degrees.",
+            "Bend your right knee until it is directly over your right ankle while keeping the torso even between the hips.",
+            "Stretch your arms out to your sides and gaze over your right hand.",
+            "Hold for 8-10 breaths before straightening the right leg and turning your feet to the other side to repeat on left side."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/warrior-ii-pose",
+        "title": "Warrior-2 Pose"
+    },
+    {
+        "id": 35390,
+        "image_url":"./Tree-Pose1.jpg",
+        "steps": [
+            "Start with your feet together and place your right foot on your inner left upper thigh. ",
+            "Press your hands in prayer and find a spot in front of you that you can hold in a steady gaze.",
+            "Hold and breathe for 8-10 breaths then switch sides. Make sure you don’t lean in to the standing leg and keep your abdominals engaged and shoulders relaxed."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/tree-pose",
+        "title": "Tree Pose"
+    },
+    {
+        "id": 35391,
+        "image_url":"./Downward-Dog.jpg",
+        "steps": [
+            "Come on to all fours with your wrists under your shoulders and knees under your hips. ",
+            "Tuck under your toes and lift your hips up off the floor as you draw them up at back towards your heels.",
+            "Keep your knees slightly bent if your hamstrings are tight, otherwise try and straighten out your legs while keeping your hips back. ",
+            " Walk your hands forward to give yourself more length if you need to.",
+            "Press firmly through your palms and rotate the inner elbows towards each other. ",
+            "Hollow out the abdominals and keep engaging your legs to keep the torso moving back towards the thighs.",
+            "Hold for 5-8 breaths before dropping back to hands and knees to rest."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/downward-facing-dog-pose",
+        "title": "Downward-Dog Pose"
+    },
+    {
+        "id": 35392,
+        "image_url":"./plow-pose.jpg",
+        "steps": [
+            "Come on to all fours with your wrists under your shoulders and knees under your hips. ",
+            "Tuck under your toes and lift your hips up off the floor as you draw them up at back towards your heels.",
+            "Keep your knees slightly bent if your hamstrings are tight, otherwise try and straighten out your legs while keeping your hips back. ",
+            " Walk your hands forward to give yourself more length if you need to.",
+            "Press firmly through your palms and rotate the inner elbows towards each other. ",
+            "Hollow out the abdominals and keep engaging your legs to keep the torso moving back towards the thighs.",
+            "Hold for 5-8 breaths before dropping back to hands and knees to rest."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.youtube.com/watch?v=sstRECKyIXE",
+        "title": "Plow Pose"
+    },
+    {
+        "id": 35393,
+        "image_url":"./spine-twist-yoga-pose.jpg",
+        "steps": [
+            "Come on to all fours with your wrists under your shoulders and knees under your hips. ",
+            "Tuck under your toes and lift your hips up off the floor as you draw them up at back towards your heels.",
+            "Keep your knees slightly bent if your hamstrings are tight, otherwise try and straighten out your legs while keeping your hips back. ",
+            " Walk your hands forward to give yourself more length if you need to.",
+            "Press firmly through your palms and rotate the inner elbows towards each other. ",
+            "Hollow out the abdominals and keep engaging your legs to keep the torso moving back towards the thighs.",
+            "Hold for 5-8 breaths before dropping back to hands and knees to rest."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/downward-facing-dog-pose",
+        "title": "Spine-Twist Pose"
+    },
+    {
+        "id": 35394,
+        "image_url":"./seated-twist.jpg",
+        "steps": [
+            "Come on to all fours with your wrists under your shoulders and knees under your hips. ",
+            "Tuck under your toes and lift your hips up off the floor as you draw them up at back towards your heels.",
+            "Keep your knees slightly bent if your hamstrings are tight, otherwise try and straighten out your legs while keeping your hips back. ",
+            " Walk your hands forward to give yourself more length if you need to.",
+            "Press firmly through your palms and rotate the inner elbows towards each other. ",
+            "Hollow out the abdominals and keep engaging your legs to keep the torso moving back towards the thighs.",
+            "Hold for 5-8 breaths before dropping back to hands and knees to rest."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/downward-facing-dog-pose",
+        "title": "Seated-Twist Pose"
+    },
+    {
+        "id": 35395,
+        "image_url":"./butterfly-pose.jpg",
+        "steps": [
+            "Come on to all fours with your wrists under your shoulders and knees under your hips. ",
+            "Tuck under your toes and lift your hips up off the floor as you draw them up at back towards your heels.",
+            "Keep your knees slightly bent if your hamstrings are tight, otherwise try and straighten out your legs while keeping your hips back. ",
+            " Walk your hands forward to give yourself more length if you need to.",
+            "Press firmly through your palms and rotate the inner elbows towards each other. ",
+            "Hollow out the abdominals and keep engaging your legs to keep the torso moving back towards the thighs.",
+            "Hold for 5-8 breaths before dropping back to hands and knees to rest."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.yogajournal.com/videos/downward-facing-dog-pose",
+        "title": "Butterfly Pose"
+    },
+    {
+        "id": 35396,
+        "image_url":"./dhanurasana-yogapose.jpg",
+        "steps": [
+            "Come on to all fours with your wrists under your shoulders and knees under your hips. ",
+            "Tuck under your toes and lift your hips up off the floor as you draw them up at back towards your heels.",
+            "Keep your knees slightly bent if your hamstrings are tight, otherwise try and straighten out your legs while keeping your hips back. ",
+            " Walk your hands forward to give yourself more length if you need to.",
+            "Press firmly through your palms and rotate the inner elbows towards each other. ",
+            "Hollow out the abdominals and keep engaging your legs to keep the torso moving back towards the thighs.",
+            "Hold for 5-8 breaths before dropping back to hands and knees to rest."
+        ],
+        "publisher": "yogajournal",
+        "publisher_url": "https://www.yogajournal.com/",
+        "source_url":
+            "https://www.youtube.com/watch?v=MqLqE8yd_uo",
+        "title": "Bow Pose"
     }
 ]
